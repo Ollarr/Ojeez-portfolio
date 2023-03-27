@@ -12,7 +12,7 @@ const Nav = () => {
   ];
   const [open, setOpen] = useState(false);
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full fixed z-100 top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
@@ -28,7 +28,6 @@ const Nav = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
         >
-          {/* <ion-icon name={open ? "close" : "menu"}></ion-icon> */}
           {open ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
 
