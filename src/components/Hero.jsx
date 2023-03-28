@@ -4,8 +4,8 @@ import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 function Hero() {
   return (
     <div>
-      <div className="mt-8 px-4 py-16 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="grid items-center gap-10 lg:grid-cols-2">
+      <div className=" mt-8 px-4 py-16 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="grid items-center justify-items-center gap-10 lg:grid-cols-2">
           <div className="lg:pr-10">
             <h5 className="mb-4 text-4xl font-extrabold leading-none">
               Hi, I am Ojietuahmen Samuel
@@ -18,19 +18,23 @@ function Hero() {
               sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
             </p>
             <hr className="mb-5 border-gray-300" />
-            <div className="flex items-center space-x-4">
-              <a
-                href="/"
-                className="text-gray-600 align-self-center text-xl  transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <AiOutlineGithub />
-              </a>
-              <a
-                href="/"
-                className="text-gray-600 align-self-center text-xl transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <AiFillLinkedin />
-              </a>
+            <div className="flex justify-items-center space-x-3">
+              <span className="">
+                <a
+                  href="/"
+                  className="text-gray-600 text-xl  transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  <AiOutlineGithub className="object-center" />
+                </a>
+              </span>
+              <span className="">
+                <a
+                  href="/"
+                  className="text-gray-600 text-xl transition-colors duration-300 hover:text-deep-purple-accent-400"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </span>
             </div>
           </div>
           <div>

@@ -38,11 +38,29 @@ function Projects() {
         "https://cdn.dribbble.com/userupload/3265843/file/original-800d12b95b2f8bf7c18b19a678884634.jpg?compress=1&resize=2048x1536",
       link: "",
     },
+    {
+      project: "E-commerce app",
+      description:
+        " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. ",
+      role: "Backend development",
+      image:
+        "https://cdn.dribbble.com/userupload/3265843/file/original-800d12b95b2f8bf7c18b19a678884634.jpg?compress=1&resize=2048x1536",
+      link: "",
+    },
+    {
+      project: "E-commerce app",
+      description:
+        " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. ",
+      role: "Backend development",
+      image:
+        "https://cdn.dribbble.com/userupload/3265843/file/original-800d12b95b2f8bf7c18b19a678884634.jpg?compress=1&resize=2048x1536",
+      link: "",
+    },
   ];
   return (
-    <section>
+    <section className="mb-6">
       <div className="text-center px-4 mb-4">
-        <h1 className=" text-4xl">Featured Projects</h1>
+        <h1 className=" text-4xl mb-4">Featured Projects</h1>
         <h4>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
@@ -50,24 +68,9 @@ function Projects() {
           doloremque rem aperiam, eaque ipsa quae.
         </h4>
       </div>
-      <div className="flex md:flex-row flex-col px-6 gap-4 justify-items-center items-center max-w-full  ">
-        {/* <div
-        className=" w-[300px]
-    h-[300px]
-    m-[10px] bg-blue-300"
-      >
-        <div>
-          {portfolioDetails.map((detail) => (
-            <div>
-              <h1 className="text-white">{detail.project}</h1>
-              <h2>{detail.role}</h2>
-              <img className="" src="" />
-            </div>
-          ))}
-        </div>
-      </div> */}
+      <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 flex-col px-6 gap-8 justify-items-center items-center max-w-full  ">
         {projectsDetails.map((detail) => (
-          <div class="cards bg-gray-800 h-[350px] w-[400px] p-4  border border-gray-200 rounded-lg ">
+          <div class="cards bg-gray-800 h-[350px] p-4  border border-gray-200 rounded-lg ">
             <a href="/">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 {detail.project}
@@ -77,7 +80,6 @@ function Projects() {
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
               {detail.description}
             </p>
-            {/* <div className="mb-3 mr-auto ml-auto block"> */}
             <div className="mb-3">
               <img
                 className="m-auto block w-[60%] aspect-[3/2]  "
