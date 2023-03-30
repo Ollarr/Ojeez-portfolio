@@ -18,7 +18,7 @@ function Hero() {
               sit voluptatem totam rem aperiam, eaque ipsa quae explicabo.
             </p>
             <hr className="mb-5 border-gray-300" />
-            <div className="flex items-center space-x-4">
+            <div className="flex justify-center space-x-4">
               <a
                 href="/"
                 className="text-gray-600 align-self-center text-xl  transition-colors duration-300 hover:text-deep-purple-accent-400"

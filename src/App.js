@@ -1,16 +1,20 @@
 import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
-import Experience from "./components/Experience";
+import ContactForm from "./components/ContactForm";
 import Projects from "./components/Projects";
+import Experiences from "./components/Experiences";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <About />
-      <Experience />
+      <Experiences />
       <Projects />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }

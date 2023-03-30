@@ -1,12 +1,12 @@
 import React from "react";
 
-function form() {
+function ContactForm() {
   return (
     <div>
-      <section className="background-image ">
+      <section className="form-background-image ">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
-            Contact Us
+            Send a message
           </h2>
           <p className="mb-8 lg:mb-16 font-bold text-center text-white sm:text-xl">
             Got a technical issue? Need details or clarity about anything? Let
@@ -70,4 +70,4 @@ function form() {
   );
 }
 
-export default form;
+export default ContactForm;

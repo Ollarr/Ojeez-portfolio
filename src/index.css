@@ -50,3 +50,7 @@ code {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.form-background-image {
+  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
